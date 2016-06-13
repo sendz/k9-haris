@@ -46,4 +46,10 @@
         android:showAsAction="never"
         android:title="@string/preferences_action"/>
 
+    <item
+        android:id="@+id/certificates"
+        android:icon="?attr/iconActionArchive"
+        android:showAsAction="never"
+        android:title="@string/certificates"/>
+
 </menu>

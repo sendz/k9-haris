@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fsck.k9.activity.Certificates">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@id/android:list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/android:list"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white"
+            android:padding="5dp">
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/light_black"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/settings_import_dialog_title"
+                android:textAllCaps="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>
